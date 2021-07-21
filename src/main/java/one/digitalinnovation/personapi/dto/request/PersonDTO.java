@@ -28,7 +28,7 @@ public class PersonDTO {
     private String lastName;
 
     @NotEmpty
-    @CPF
+    @Size(min= 11, max = 14)
     private String cpf;
 
     private String birthDate;
